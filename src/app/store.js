@@ -1,4 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { getDefaultNormalizer } from "@testing-library/react";
 import { cryptoApi } from "../services/cryptoApi";
 import { cryptoNewsApi } from "../services/cryptoNewsApi";
 

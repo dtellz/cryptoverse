@@ -134,6 +134,10 @@ a:hover{
 }
 
 .coin-detail-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 30px;
 }
 
@@ -206,6 +210,7 @@ a:hover{
 
 .coin-desc-link{
     display: flex;
+    justify-content: center;
     gap: 40px;
     margin-top: 40px;
     padding-top: 20px;
@@ -234,7 +239,7 @@ a:hover{
 }
 
 .coin-links{
-  padding: 0px 20px;
+    padding: 0px 20px;
     flex: 0.5;
 }
 
@@ -368,7 +373,11 @@ width: 70%;
     width: 200px !important;
     margin-top: 20px !important;
 }
-
+.select-timeperiod-container{
+    display: grid;
+    place-content: center;
+    
+}
 .footer {
     background-color: #001529;
     display: flex;

@@ -26,8 +26,8 @@ const App = () => {
 
                 <div className='footer'>
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-                        Cryptoverse <br />
-                        All righst reserved
+                        Cryptoverse <span style={{ color: 'gray' }}>{new Date().getFullYear()}</span> <br />
+                        All rights reserved.
                     </Typography.Title>
                     <Space>
                         <Link to='/'>Home</Link>
